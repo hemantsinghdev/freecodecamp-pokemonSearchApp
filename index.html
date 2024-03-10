@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="column-flex">
+    <div class="main column-flex">
+      <div class="heading">
+        <h1>Pokémon Search App</h1>
+      </div>
+      <div class="container column-flex">
+        <div class="search column-flex">
+          <h3>Search by typing a valid Pokémon Id or Name</h3>
+          <div class="input-section">
+            <input type="text" name="user-input" id="search-input" required/>
+            <button class="search-button" id="search-button">Search</button>
+          </div>
+        </div>
+        <hr />
+        <div class="show-section">
+            <div class="image-sec column-flex">
+                <div class="name-id">
+                    <h5 id="pokemon-name"></h5>
+                    <h5 id="pokemon-id"></h5>
+                </div>
+                <div class="image"></div>
+            </div>
+            <div class="features-sec column-flex" id="types"></div>
+        </div>
+        <hr />
+        <div class="stats-section">
+          <h3>Stats for the Chosen Pokémon</h3>
+          <div class="stats column-flex">
+            <div class="stat">
+              <p class="base" id="base-text">BASE</p>
+              <p class="stat-value" id="stat-text">STATS</p>
+            </div>
+            <div class="stat">
+              <p class="base">Weight</p>
+              <p class="stat-value" id="weight">?</p>
+            </div>
+            <div class="stat">
+              <p class="base">Height</p>
+              <p class="stat-value" id="height">?</p>
+            </div>
+            <div class="stat">
+              <p class="base">HP</p>
+              <p class="stat-value" id="hp">?</p>
+            </div>
+            <div class="stat">
+              <p class="base">Attack</p>
+              <p class="stat-value" id="attack">?</p>
+            </div>
+            <div class="stat">
+              <p class="base">Defense</p>
+              <p class="stat-value" id="defense">?</p>
+            </div>
+            <div class="stat">
+              <p class="base">Special Attack</p>
+              <p class="stat-value" id="special-attack">?</p>
+            </div>
+            <div class="stat">
+              <p class="base">Special Defense</p>
+              <p class="stat-value" id="special-defense">?</p>
+            </div>
+            <div class="stat">
+              <p class="base">Speed</p>
+              <p class="stat-value" id="speed">?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
