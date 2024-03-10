@@ -30,7 +30,7 @@ h1{
 }
 
 .container{
-    background-image: url("https://img.freepik.com/free-photo/red-fabric-texture_23-2148134752.jpg?w=740&t=st=1710043106~exp=1710043706~hmac=8b2d2dfccb38c2db9bff7e3b13f100f85c0820ff8655d01ed31281bc2ed7aafd");
+    background-image: url("OldRedTexture.jpg");
     justify-content: space-between;
     width: 70rem;
 }
@@ -190,7 +190,7 @@ h5{
     }
 
     .container{
-        width: 110%;
+        width: 95%;
     }
 
     .search{
